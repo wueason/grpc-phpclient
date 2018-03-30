@@ -1,0 +1,15 @@
+{
+    "name"  : "wueason/grpc-phpclient",
+    "type"  : "library",
+    "keywords": ["grpc","client","php"],
+    "license" : "MIT",
+    "require": {
+        "google/protobuf" : ">=3.5.2",
+    	"grpc/grpc": ">=1.10.0"
+    },
+    "autoload": {
+        "classmap": [
+            "protos/gen"
+        ]
+    }
+}
